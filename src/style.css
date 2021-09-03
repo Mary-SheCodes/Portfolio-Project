@@ -69,6 +69,29 @@ h3.subheader {
 }
 .project-btn:hover {
   color: var(--third-blue);
-font-family: 'Domine', serif;
+  font-family: "Domine", serif;
   font-weight: bold;
+}
+.row-h {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  .h1-mainheader {
+    font-size: large;
+  }
+  .h2-mainheader {
+    font-size: small;
+  }
+  .h2-subheader {
+    font-size: 16px;
+  }
+  h3.subheader {
+    font-size: 16px;
+  }
+  .row-h {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
 }
