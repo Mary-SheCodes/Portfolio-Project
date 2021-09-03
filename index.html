@@ -20,6 +20,11 @@
       src="https://kit.fontawesome.com/eff29e17d9.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/src/style.css" />
     <title>Document</title>
   </head>
@@ -44,7 +49,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -58,16 +63,21 @@
                 Project
               </a>
               <ul
+                style="background-color: var(--third-blue)"
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <li><a class="dropdown-item" href="#">HTML</a></li>
-                <li><a class="dropdown-item" href="#">Java Script</a></li>
+                <li><a class="dropdown-item" href="/#html-project">HTML</a></li>
                 <li>
-                  <a class="dropdown-item" href="#">Responsive</a>
+                  <a class="dropdown-item" href="/#api-project">API</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">API</a>
+                  <a class="dropdown-item" href="/#js-project">Java Script</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/#responsive-project"
+                    >Responsive</a
+                  >
                 </li>
               </ul>
             </li>
@@ -86,12 +96,13 @@
       <h1 class="h1-mainheader">This is Maryam Mohebbi Personal blog</h1>
       <h2 class="h2-mainheader">IT Engineer and Junior Front-End Developer</h2>
     </div>
-    <div class="container">
+
+    <div id="intro-paragraph" class="container">
       <div class="row mt-5 mb-5">
         <div class="col-md-7">
           <p class="main-paragraph">
-            My name is Maryam. I was born in 1990 in Tehran, Iran. I graduated in
-            mathematics in highschool and IT Engineering in university on a
+            My name is Maryam. I was born in 1990 in Tehran, Iran. I graduated
+            in mathematics in highschool and IT Engineering in university on a
             bachelor degree.
             <br />
             First of all I worked as a technical support and help desk assistant
@@ -111,10 +122,107 @@
             want and I am proud of them. And I pretty much want to be like them.
             A perfect programmer that can create new things.
           </p>
+          <a href="#" class="btn project-btn">Read More About Me ....</a>
         </div>
         <div class="col-md-5 my-auto text-center">
-        <img src="/image/main.JPG" alt="Maryam personal photo" class="img-fluid w-75 rounded" id="main-photo">
-     </div> </div>
+          <img
+            src="/image/main.JPG"
+            alt="Maryam personal photo"
+            class="img-fluid w-75 rounded"
+            id="main-photo"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="h2-subheader">I wanna show you my first projects in coding</h2>
+    </div>
+
+    <div id="projects" class="container">
+      <div id="html-project" class="row mt-3 mb-5">
+        <div class="col-md-4 my-auto text-center">
+          <img
+            src="/image/starbucks.png"
+            alt="starbucks project"
+            class="img-fluid w-100 rounded-right img-effect"
+          />
+        </div>
+        <div class="col-md-6 my-auto">
+          <h3 class="h3 subheader">Starbucks Project</h3>
+          <p class="main-paragraph">
+            This is my first programming project. Based on HTML, CSS and basic
+            knowledge in JS. I designed coffee boxes with flexbox and hover
+            texts.
+          </p>
+          <a href="#" class="btn project-btn">Want to visit ?</a>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+
+      <div id="api-project" class="row mt-3 mb-5">
+        <div class="col-md-1"></div>
+        <div class="col-md-4 my-auto text-center">
+          <img
+            src="/image/weatherapp.png"
+            alt="weatherapp project"
+            class="img-fluid w-100 rounded-middle img-effect"
+          />
+        </div>
+        <div class="col-md-6 my-auto">
+          <h3 class="h3 subheader">Weather App Project</h3>
+          <p class="main-paragraph">
+            This is my first API project. I was really excited when I
+            finished it. This is connected to the weather API and shows current
+            weather, next 6 hours and next 6 days prediction with low and high
+            degrees, humidity and status of weather with related icons.
+          </p>
+          <a href="#" class="btn project-btn">Want to visit ?</a>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+
+      <div id="js-project" class="row mt-3 mb-5">
+        <div class="col-md-1"></div>
+        <div class="col-md-6 my-auto">
+          <h3 class="h3 subheader">Apple Watch Project</h3>
+          <p class="main-paragraph">
+            This is my first practice for JS skills. First of all, I
+            thought this was so hard to deploy. But when it started, I did it
+            easily based on my little knowledge and searched on google.
+          </p>
+          <a href="#" class="btn project-btn">Want to visit ?</a>
+        </div>
+        <div class="col-md-4 my-auto text-center">
+          <img
+            src="/image/applewatch.png"
+            alt="applewatch project"
+            class="img-fluid w-100 rounded-middle img-effect"
+          />
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+
+      <div id="responsive-project" class="row mt-5 mb-3">
+        <div class="col-md-2"></div>
+        <div class="col-md-6 my-auto">
+          <h3 class="h3 subheader">Disney Project</h3>
+          <p class="main-paragraph">
+            This is my favorite and first HTML/Responsive project. I Always like
+            Diesny's animations and girls. So after I learned something about
+            Responsive, for practicing I decided to make a project about
+            Disney's powerful girls.
+          </p>
+          <a href="#" class="btn project-btn">Want to visit ?</a>
+        </div>
+        <div class="col-md-4 my-auto text-center">
+          <img
+            src="/image/disney.png"
+            alt="disney project"
+            class="img-fluid w-100 rounded-left img-effect"
+          />
+        </div>
+      </div>
     </div>
     <script src="src/js.js"></script>
   </body>

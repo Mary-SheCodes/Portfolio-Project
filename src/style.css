@@ -33,3 +33,42 @@ body {
 #main-photo:hover {
   opacity: 0.8;
 }
+.h2-subheader {
+  font-family: "Fredericka the Great", cursive;
+  color: var(--first-white);
+  text-align: center;
+  font-size: 24px;
+}
+.rounded-left {
+  border-radius: 30% 1% 1% 30% / 50% 1% 1% 50%;
+}
+.rounded-right {
+  border-radius: 1% 30% 30% 1% / 1% 50% 50% 1%;
+}
+
+.rounded-middle {
+  border-radius: 30% 30% 30% 30% / 50% 50% 50% 50%;
+}
+h3.subheader {
+  font-family: "Fredericka the Great", cursive;
+  color: var(--first-white);
+  font-size: 20px;
+}
+.img-effect {
+  transition: transform 0.7s ease-in-out;
+}
+.img-effect:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+.project-btn {
+  padding: 5px;
+  color: var(--third-blue);
+  font-family: "Special Elite", cursive;
+  margin: 0 auto;
+}
+.project-btn:hover {
+  color: var(--third-blue);
+font-family: 'Domine', serif;
+  font-weight: bold;
+}
