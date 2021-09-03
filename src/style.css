@@ -8,3 +8,28 @@
   --second-black: #393e46;
   --third-black: #606470;
 }
+
+body {
+  margin-top: 100px;
+  background-color: var(--first-blue);
+}
+.page-header {
+  font-family: "Fredericka the Great", cursive;
+  color: var(--first-white);
+  text-align: center;
+}
+.h1-mainheader {
+  font-size: xx-large;
+}
+.h2-mainheader {
+  font-size: large;
+}
+.main-paragraph {
+  color: var(--first-white);
+  text-align: justify;
+  font-family: "Josefin Slab", serif;
+  font-size: 18px;
+}
+#main-photo:hover {
+  opacity: 0.8;
+}
