@@ -180,3 +180,14 @@ body {
     font-size: 15px;
   }
 }
+
+.contact-icon {
+  font-size: 20px;
+  color: var(--fourth-blue);
+  padding: 10px;
+}
+.contact-link,
+.contact-link:hover,
+.contact-link:visited {
+  color: var(--fourth-blue);
+}
