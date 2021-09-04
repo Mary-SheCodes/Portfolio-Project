@@ -29,9 +29,10 @@ body {
 .contact-title {
   color: var(--first-white);
   font-size: 20px;
-font-family: 'Mate', serif;
+  font-family: "Mate", serif;
   padding-left: 25px;
 }
+
 .footer-icon {
   font-size: x-large;
   color: var(--first-blue) !important;
@@ -46,6 +47,7 @@ font-family: 'Mate', serif;
 
 .footer-bg {
   background-color: var(--third-blue);
+  font-size: 16px;
 }
 
 .footer-copyright {
@@ -81,10 +83,12 @@ font-family: 'Mate', serif;
 .h3-subheader {
   font-size: 20px;
 }
+
 .h4-subheader {
   font-size: 16px;
   display: inline;
 }
+
 .header-page {
   font-family: "Fredericka the Great", cursive;
   color: var(--first-white);
@@ -171,6 +175,10 @@ font-family: 'Mate', serif;
     font-size: 18px;
   }
 
+  .h4-subheader {
+    font-size: 15px;
+  }
+
   .row-h {
     margin-top: 15px;
     margin-bottom: 10px;
@@ -178,6 +186,14 @@ font-family: 'Mate', serif;
 
   .main-paragraph {
     font-size: 17px;
+  }
+
+  .footer-icon {
+    font-size: 15px;
+  }
+
+  .footer-bg {
+    font-size: 12px;
   }
 }
 
@@ -198,7 +214,23 @@ font-family: 'Mate', serif;
     font-size: 17px;
   }
 
+  .h4-subheader {
+    font-size: 14px;
+  }
+  
+  .project-link {
+    font-size: 13px;
+  }
+
   .main-paragraph {
+    font-size: 16px;
+  }
+
+  .contact-icon {
+    font-size: 30px;
+  }
+
+  .contact-title {
     font-size: 16px;
   }
 }
