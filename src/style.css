@@ -191,3 +191,25 @@ body {
 .contact-link:visited {
   color: var(--fourth-blue);
 }
+
+.footer-icon {
+  font-size: x-large;
+  color: var(--first-blue) !important;
+  padding: 10px;
+}
+.footer-link,
+.footer-link:hover,
+.footer-link:visited {
+  color: var(--first-blue);
+}
+.footer-bg {
+  background-color: var(--third-blue);
+}
+.footer-copyright {
+  color: var(--first-blue) !important;
+}
+.footer-link {
+  text-decoration: none;
+  color: var(--first-blue) !important;
+  font-weight: bold;
+}
