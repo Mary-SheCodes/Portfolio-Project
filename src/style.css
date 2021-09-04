@@ -13,35 +13,74 @@ body {
   margin-top: 100px;
   background-color: var(--first-blue);
 }
-.page-header {
+
+.h1-mainheader {
+  font-size: 48px;
+}
+
+.h2-mainheader {
+  font-size: 38px;
+}
+
+.h2-subheader,
+.h3-subheader {
+  font-family: "Fredericka the Great", cursive;
+  color: var(--first-white);
+}
+
+.h2-subheader {
+  text-align: center;
+  font-size: 24px;
+}
+
+.h3-subheader {
+  font-size: 20px;
+}
+
+.header-page {
   font-family: "Fredericka the Great", cursive;
   color: var(--first-white);
   text-align: center;
 }
-.h1-mainheader {
-  font-size: xx-large;
+
+.img-effect {
+  transition: transform 0.7s ease-in-out;
 }
-.h2-mainheader {
-  font-size: large;
+
+.img-effect:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
 }
+
 .main-paragraph {
   color: var(--first-white);
   text-align: justify;
   font-family: "Josefin Slab", serif;
   font-size: 18px;
 }
+
 #main-photo:hover {
   opacity: 0.8;
 }
-.h2-subheader {
-  font-family: "Fredericka the Great", cursive;
-  color: var(--first-white);
-  text-align: center;
-  font-size: 24px;
+
+.project-btn {
+  padding: 5px;
+  color: var(--third-blue);
+  font-family: "Special Elite", cursive;
+  margin: 0 auto;
 }
+
+.project-btn:hover,
+.project-btn:visited {
+  color: var(--third-blue);
+  font-family: "Domine", serif;
+  font-weight: bold;
+}
+
 .rounded-left {
   border-radius: 30% 1% 1% 30% / 50% 1% 1% 50%;
 }
+
 .rounded-right {
   border-radius: 1% 30% 30% 1% / 1% 50% 50% 1%;
 }
@@ -49,49 +88,79 @@ body {
 .rounded-middle {
   border-radius: 30% 30% 30% 30% / 50% 50% 50% 50%;
 }
-h3.subheader {
-  font-family: "Fredericka the Great", cursive;
-  color: var(--first-white);
-  font-size: 20px;
-}
-.img-effect {
-  transition: transform 0.7s ease-in-out;
-}
-.img-effect:hover {
-  transform: scale(1.1);
-  opacity: 0.9;
-}
-.project-btn {
-  padding: 5px;
-  color: var(--third-blue);
-  font-family: "Special Elite", cursive;
-  margin: 0 auto;
-}
-.project-btn:hover {
-  color: var(--third-blue);
-  font-family: "Domine", serif;
-  font-weight: bold;
-}
+
 .row-h {
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .h1-mainheader {
-    font-size: large;
+    font-size: 36px;
   }
+
   .h2-mainheader {
-    font-size: small;
+    font-size: 26px;
   }
+
   .h2-subheader {
-    font-size: 16px;
+    font-size: 20px;
   }
-  h3.subheader {
-    font-size: 16px;
+
+  .h3-subheader {
+    font-size: 18px;
   }
+
   .row-h {
     margin-top: 15px;
     margin-bottom: 10px;
+  }
+
+  .main-paragraph {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 670px) {
+  .h1-mainheader {
+    font-size: 29px;
+  }
+
+  .h2-mainheader {
+    font-size: 21px;
+  }
+
+  .h2-subheader {
+    font-size: 18px;
+  }
+
+  .h3-subheader {
+    font-size: 17px;
+  }
+
+  .main-paragraph {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .h1-mainheader {
+    font-size: 19px;
+  }
+
+  .h2-mainheader {
+    font-size: 15px;
+  }
+
+  .h2-subheader {
+    font-size: 14px;
+  }
+
+  .h3-subheader {
+    font-size: 13px;
+  }
+
+  .main-paragraph {
+    font-size: 15px;
   }
 }
