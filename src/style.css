@@ -9,21 +9,15 @@
   --third-black: #606470;
 }
 
-html,
 body {
   margin-top: 100px;
   background-color: var(--first-blue);
-  min-height: 100%;
 }
 
 .contact-icon {
   font-size: 40px;
   color: var(--fourth-blue);
   padding: 10px;
-}
-
-.wrap {
-  min-height: 100vh;
 }
 
 .contact-link,
@@ -223,7 +217,7 @@ body {
   .h4-subheader {
     font-size: 14px;
   }
-
+  
   .project-link {
     font-size: 13px;
   }
