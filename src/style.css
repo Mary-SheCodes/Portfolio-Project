@@ -108,7 +108,7 @@ body {
   color: var(--first-white);
   text-align: justify;
   font-family: "Josefin Slab", serif;
-  font-size: 18px;
+  font-size: large;
 }
 
 #main-photo:hover {
@@ -217,13 +217,9 @@ body {
   .h4-subheader {
     font-size: 14px;
   }
-  
+
   .project-link {
     font-size: 13px;
-  }
-
-  .main-paragraph {
-    font-size: 16px;
   }
 
   .contact-icon {
@@ -250,9 +246,5 @@ body {
 
   .h3-subheader {
     font-size: 13px;
-  }
-
-  .main-paragraph {
-    font-size: 15px;
   }
 }
